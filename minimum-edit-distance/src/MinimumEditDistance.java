@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class MinimumEditDistance {
-	public static final String filePath = "C:/Users/zekiy/Downloads/vocabulary_tr.txt";
+	public static final String filePath = "xxx.txt";
 	public static final int gap = 1;
 	public static int[][] editDistanceMatrix;
 
@@ -31,7 +31,7 @@ public class MinimumEditDistance {
 		switch (selection) {
 		case 1:
 			Scanner part1 = new Scanner(System.in);
-			System.out.println("Note: Words will be not case sensetive.(PüTürlü = pütürlü)");
+			System.out.println("Note: Words will be not case sensetive.(PÃ¼TÃ¼rlÃ¼ = pÃ¼tÃ¼rlÃ¼)");
 			System.out.println("Note: Each operation costs 1.\n");
 			System.out.print("Enter the word: ");
 			String source_part1 = part1.nextLine();
@@ -44,7 +44,7 @@ public class MinimumEditDistance {
 			break;
 		case 2:
 			Scanner part2 = new Scanner(System.in);
-			System.out.println("Note: Words will be not case sensetive.(PüTürlü = pütürlü)");
+			System.out.println("Note: Words will be not case sensetive.(PÃ¼TÃ¼rlÃ¼ = pÃ¼tÃ¼rlÃ¼)");
 			System.out.println("Note: Each operation costs 1.\n");
 			System.out.print("Enter the first word: ");
 			String source = part2.nextLine();
